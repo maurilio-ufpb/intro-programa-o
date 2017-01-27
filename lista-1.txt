@@ -1,0 +1,66 @@
+Exercícios lista 1.
+
+1. Divisão:
+
+Inicie a e b com o valor?
+
+1. Inicie a com o dividendo, vá para 2
+
+2. Inicie b com o divisor, vá para 3
+
+3. inicie c com o valor 0, vá para 4;
+
+4. Se a < b, vá para 4.1, senão vá para 5.
+
+4.1. Incremente c com 1, vá para 4.2;
+
+4.2. Subtraia b de a, vá para 4;
+
+5. c é o resultado e a é o resto. FIM
+
+
+2. Multiplicação:
+
+1. Inicie a com um fator e b com outro fator, vá para 2;
+
+2.inicie c com o valor 0, vá para 3;
+
+3. Se a > 0, vá para 3.1, senão vá ára 4;
+
+3.1. Adicione b em c, vá para 3.2;
+
+3.2. Decremente a em 1munidade; vá para 3;
+
+4. c é o resultado.
+
+FIM.
+
+
+Raiz Quadrada
+
+Passo 1
+receba um numero e armazene na variável a
+receba um numero e armazene na variável b
+a= 1
+b= 1
+
+
+4. Somatório de números.
+
+1. inicie a com o valor 1, vá para 2;
+
+2. inicie b com o valor 0, vá para 3;
+
+3. inicie c com o valor de N, vá para 4;
+
+4. Se a maior/igual c, vá para 4.1; senão vá para 5;
+
+4.1. adicione o valor de a em b; vá para 4.2;
+
+4.2. Incremente  uma unidade em a; vá para 4.
+
+5. O resultado é b.
+
+FIM.
+
+ 
