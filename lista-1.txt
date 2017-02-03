@@ -1,0 +1,342 @@
+<<<<<<< HEAD
+Exercícios lista 1.
+
+1. Construa um algoritmo que compute o resultado e resto da divisão entre dois números.
+
+Inicie a e b com o valor?
+
+1. Inicie a com o dividendo, vá para 2
+
+2. Inicie b com o divisor, vá para 3
+
+3. inicie c com o valor 0, vá para 4;
+
+4. Se a < b, vá para 4.1, senão vá para 5.
+
+4.1. Incremente c com 1, vá para 4.2;
+
+4.2. Subtraia b de a, vá para 4;
+
+5. c é o resultado e a é o resto. FIM
+
+
+2. Construa um algoritmo que compute o resultado da multiplicação entre dois números.
+
+1. Inicie a com um fator e b com outro fator, vá para 2;
+
+2.inicie c com o valor 0, vá para 3;
+
+3. Se a > 0, vá para 3.1, senão vá para 4;
+
+3.1. Adicione b em c, vá para 3.2;
+
+3.2. Decremente a em uma unidade; vá para 3;
+
+4. c é o resultado. FIM!
+
+
+4. Construa um algoritmo que compute a soma dos números inteiros de 1 até N.
+
+1. inicie a com o valor 1, vá para 2;
+
+2. inicie b com o valor 0, vá para 3;
+
+3. inicie c com o valor de N, vá para 4;
+
+4. Se a maior/igual c, vá para 4.1; senão vá para 5;
+
+4.1. adicione o valor de a em b; vá para 4.2;
+
+4.2. Incremente  uma unidade em a; vá para 4.
+
+5. O resultado é b.
+
+FIM.
+
+6. Faça um algoritmo que leia um nº inteiro e mostre uma mensagem indicando se este número é 
+par ou ímpar, e se é positivo ou negativo.
+
+1. Inicie um número inteiro, vá para 2;
+
+2. Divida o número por 2, vá para 3;
+
+3. Se o resto da divisão for 0, vá para 3.1;
+
+3.1. O número é par, vá para 3.2;
+
+3.2. Se não o número é impar, vá para 4;
+
+4. Se o número for maior ou igual a 0, vá para 4.1;
+
+4.1. O número é positivo, vá para 5;
+
+5. Se o número for menor que 0, vá para 5.1;
+
+5.1. O número é negativo. FIM!
+
+
+7. Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses 
+e dias e mostre-a expressa apenas em dias.
+
+
+variáveis
+
+a,m,d
+
+inicio
+ 
+  1. receba sua idade em anos na variável a. Leia a, vá para 1.1;
+
+  1.1. ano = 365, vá para 2;
+  
+  2. receba sua idade em meses na variável m. Leia m, vá para 2.1;
+
+  2.1. mes = 30, vá para 3
+  
+  3. receba sua idade em dias na variável d. Leia d, vá para 4;
+  
+  4. idade em Dias= d + a*365 + m*30. FIM!
+
+
+8. Faça um algoritmo que leia a idade de uma pessoa expressa em dias e mostre-a expressa em 
+anos, meses e dias.
+
+   variáveis
+
+   anos, meses, dias
+
+  inicio
+
+  1. receba a idade em dias. leia dias e armazene na variável dias, vá para 2
+  
+  2. divida dias por 365 e o resultado armazene na variável anos, vá para 2.1;
+
+  2.1. se o resto for maior que 30, vá para 3;
+
+  3. divida o resto por 30 e o resultado armazene na variável meses, vá para 3.1
+
+  3.1. o resto é a quantidade em dias. FIM!
+  
+  
+9. Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. 
+Considerar que a média é ponderada e que o peso das notas é: 2, 3 e 5, respectivamente.
+
+variáveis
+
+n1, n2, n3, média
+
+inicio
+
+1. receba a primeira nota, e armazene na variável n1, vá para 1.1;
+
+1.1. peso igual a 2, vá para 2;
+
+2. receba a segunda nota, e armazene na variável n2, vá para 2.1;
+
+2.1. peso igual a 3, vá para 3;
+
+3. receba a terceira nota, e armazene na variável n3, vá para 3.1;
+
+3.1. peso igual a 5, vá para 4;
+
+4. média = (n1*2)+(n2*3)+(n3*5) dividido por (2+3+5), vá para 5;
+
+5. a média ponderada = (n1*2)+(n2*3)+(n3*5)/10. FIM!
+
+
+12. Calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma 
+mensagem de "Aprovado", caso a média seja igual ou superior a 6, ou a mensagem "reprovado", 
+caso contrário.
+
+variáveis
+
+n1, n2, n3, média
+
+inicio
+
+1. receba a primeira nota, e armazene na variável n1, vá para 2;
+
+2. receba a segunda nota, e armazene na variável n2, vá para 3;
+
+3. receba a terceira nota, e armazene na variável n3, vá para 4;
+
+4. média = (n1+n2+n3)/3, vá para 5;
+
+5. se a média for >= 6, então vá para 5.1;
+
+5.1 escreva "aprovado", senão vá para 6;
+
+6. escreva "reprovado" FIM
+
+=======
+Exercícios lista 1.
+
+1. Construa um algoritmo que compute o resultado e resto da divisão entre dois números.
+
+Inicie a e b com o valor?
+
+1. Inicie a com o dividendo, vá para 2
+
+2. Inicie b com o divisor, vá para 3
+
+3. inicie c com o valor 0, vá para 4;
+
+4. Se a < b, vá para 4.1, senão vá para 5.
+
+4.1. Incremente c com 1, vá para 4.2;
+
+4.2. Subtraia b de a, vá para 4;
+
+5. c é o resultado e a é o resto. FIM
+
+
+2. Construa um algoritmo que compute o resultado da multiplicação entre dois números.
+
+1. Inicie a com um fator e b com outro fator, vá para 2;
+
+2.inicie c com o valor 0, vá para 3;
+
+3. Se a > 0, vá para 3.1, senão vá para 4;
+
+3.1. Adicione b em c, vá para 3.2;
+
+3.2. Decremente a em uma unidade; vá para 3;
+
+4. c é o resultado. FIM!
+
+
+4. Construa um algoritmo que compute a soma dos números inteiros de 1 até N.
+
+1. inicie a com o valor 1, vá para 2;
+
+2. inicie b com o valor 0, vá para 3;
+
+3. inicie c com o valor de N, vá para 4;
+
+4. Se a maior/igual c, vá para 4.1; senão vá para 5;
+
+4.1. adicione o valor de a em b; vá para 4.2;
+
+4.2. Incremente  uma unidade em a; vá para 4.
+
+5. O resultado é b.
+
+FIM.
+
+6. Faça um algoritmo que leia um nº inteiro e mostre uma mensagem indicando se este número é 
+par ou ímpar, e se é positivo ou negativo.
+
+1. Inicie um número inteiro, vá para 2;
+
+2. Divida o número por 2, vá para 3;
+
+3. Se o resto da divisão for 0, vá para 3.1;
+
+3.1. O número é par, vá para 3.2;
+
+3.2. Se não o número é impar, vá para 4;
+
+4. Se o número for maior ou igual a 0, vá para 4.1;
+
+4.1. O número é positivo, vá para 5;
+
+5. Se o número for menor que 0, vá para 5.1;
+
+5.1. O número é negativo. FIM!
+
+
+7. Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses 
+e dias e mostre-a expressa apenas em dias.
+
+
+variáveis
+
+a,m,d
+
+inicio
+ 
+  1. receba sua idade em anos na variável a. Leia a, vá para 1.1;
+
+  1.1. ano = 365, vá para 2;
+  
+  2. receba sua idade em meses na variável m. Leia m, vá para 2.1;
+
+  2.1. mes = 30, vá para 3
+  
+  3. receba sua idade em dias na variável d. Leia d, vá para 4;
+  
+  4. idade em Dias= d + a*365 + m*30. FIM!
+
+
+8. Faça um algoritmo que leia a idade de uma pessoa expressa em dias e mostre-a expressa em 
+anos, meses e dias.
+
+   variáveis
+
+   anos, meses, dias
+
+  inicio
+
+  1. receba a idade em dias. leia dias e armazene na variável dias, vá para 2
+  
+  2. divida dias por 365 e o resultado armazene na variável anos, vá para 2.1;
+
+  2.1. se o resto for maior que 30, vá para 3;
+
+  3. divida o resto por 30 e o resultado armazene na variável meses, vá para 3.1
+
+  3.1. o resto é a quantidade em dias. FIM!
+  
+  
+9. Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. 
+Considerar que a média é ponderada e que o peso das notas é: 2, 3 e 5, respectivamente.
+
+variáveis
+
+n1, n2, n3, média
+
+inicio
+
+1. receba a primeira nota, e armazene na variável n1, vá para 1.1;
+
+1.1. peso igual a 2, vá para 2;
+
+2. receba a segunda nota, e armazene na variável n2, vá para 2.1;
+
+2.1. peso igual a 3, vá para 3;
+
+3. receba a terceira nota, e armazene na variável n3, vá para 3.1;
+
+3.1. peso igual a 5, vá para 4;
+
+4. média = (n1*2)+(n2*3)+(n3*5) dividido por (2+3+5), vá para 5;
+
+5. a média ponderada = (n1*2)+(n2*3)+(n3*5)/10. FIM!
+
+
+12. Calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma 
+mensagem de "Aprovado", caso a média seja igual ou superior a 6, ou a mensagem "reprovado", 
+caso contrário.
+
+variáveis
+
+n1, n2, n3, média
+
+inicio
+
+1. receba a primeira nota, e armazene na variável n1, vá para 2;
+
+2. receba a segunda nota, e armazene na variável n2, vá para 3;
+
+3. receba a terceira nota, e armazene na variável n3, vá para 4;
+
+4. média = (n1+n2+n3)/3, vá para 5;
+
+5. se a média for >= 6, então vá para 5.1;
+
+5.1 escreva "aprovado", senão vá para 6;
+
+6. escreva "reprovado" FIM
+
+>>>>>>> 8824d0f7dc0c4001fbb9ac088664ec069040d0f8
+       
