@@ -338,5 +338,7 @@ inicio
 
 6. escreva "reprovado" FIM
 
+teste Eduardo
+
 >>>>>>> 8824d0f7dc0c4001fbb9ac088664ec069040d0f8
        
