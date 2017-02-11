@@ -183,6 +183,57 @@ inicio
 5. a média ponderada = (n1*2)+(n2*3)+(n3*5)/10. FIM!
 
 
+10. Faça um algoritmo que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o 
+expresso em horas, minutos e segundos.
+
+Variáveis:
+
+segundos, minutos, horas:
+tempo
+
+Início:
+
+1. receba o Tempo em segundos, vá para 1.1;
+
+1.1. leia(tempo), vá para 2;
+
+2. horas = tempo div 3600, vá para 3;
+
+3. minutos =(segundos-(horas*3600)) div 60, vá para 4;
+
+4. segundos = (seg-(horas*3600)-(min*60)), vá para 5;
+
+5. escreva(horas," Horas,",min," Minutos e",seg, " Segundos").
+
+FIM!
+
+
+
+11. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a percentagem do distribuidor e dos impostos 
+(aplicados ao custo de fábrica). Supondo que a percentagem do distribuidor seja de 28% e os impostos de 45%, escrever um 
+algoritmo que leia o custo de fábrica de um carro e escreva o custo ao consumidor.
+
+Variáveis
+
+CustoFabrica, ValorDistribuidor, ValorImposto, CustoConsumidor:
+ 
+inicio
+ 
+1. Receba o valor de custo de fábrica, vá para 1.1;
+
+1.1 Leia(CustoFabrica), vá para 2.
+ 
+2. ValorDistribuidor = CustoFabrica + (CustoFabrica * PercDistribuidor / 100), vá para 2.1;
+
+2.1. ValorImposto = CustoFabrica + (CustoFabrica * PercImpostos / 100), vá para 2.2;
+ 
+2.2. CustoConsumidor = CustoFabrica + ValorDistribuidor + ValorImposto, vá para 3;
+ 
+3. Escreva,(O custo ao consumidor é: CustoConsumidor).
+
+FIM!
+ 
+
 12. Calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma 
 mensagem de "Aprovado", caso a média seja igual ou superior a 6, ou a mensagem "reprovado", 
 caso contrário.
@@ -239,3 +290,110 @@ inicio
 5.1. escreva “São múltiplos”, senão vá para 6;
 
 6. escreva “Não são múltiplos”. FIM!
+
+
+14. Elabore um algoritmo que dada a idade de um nadador classifica-o em uma das seguintes 
+categorias:
+
+infantil B = 8-10 anos 
+juvenil A = 11-13 anos 
+juvenil B = 14-17 anos 
+adulto = maiores de 18 anos
+
+variáveis
+
+idade
+
+Inicio
+
+1. Receba a idade do nadador, vá 1.1;
+1.1. Leia a idade, vá para 2;
+
+2. Se idade for igual a 8 e menor igual a 10, vá para 2.1;
+
+2.1. Categoria igual infantil, senão vá para 3;
+
+3. Se idade for igual a 11 e menor igual a 13, vá para 3.1;
+
+3.1. Categoria igual juvenil A, senão, vá para 4;
+
+4. Se idade for igual a 14 e menor igual a 17, vá para 4.1;
+
+4.1. Categoria igual a juvenil B, senão, vá para 5.
+
+5. Se idade for maior ou igual a 18, vá para 5.1;
+
+5.1. Categoria adulto. FIM!
+
+
+15. Escrever um algoritmo que lê um valor em reais e calcula qual o menor número possível 
+de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor 
+lido e a relação de notas necessárias.
+
+Algoritmo Dinheiro
+
+din, (significa o dinheiro que vai ser decomposto)
+
+Variáveis:
+
+cn100, cn50, cn10, cn5, cn1.  (cn significa o contador de cedulas)
+
+Início
+
+1. Receba um valor válido "din", vá para 1.1,
+1.1. Leia din, até (din > 0) vá para 2;
+
+2. Escreva "o valor que será decomposto é:", dinheiro;
+cn100: = 0;
+cn50: = 0;
+cn10: = 0;
+cn5: = 0;
+cn1: = 0;
+2.1. enquanto (din >= 100) faça
+cn100: = cn100 + 1;
+din: = din - 100;
+fim enquanto;
+2.2. enquanto (din >= 50) faça
+cn50: = cn50 + 1;
+din: = din - 50;
+fim enquanto;
+2.3. enquanto (din >= 10) faça
+cn10: = cn10 + 1;
+din: = din - 10;
+fim enquanto;
+2.4. enquanto (din >= 5) faça
+cn5: = cn5 + 1;
+din: = din - 5;
+fim enquanto;
+2.5. enquanto (din >= 1) faça
+cn1: = cn1 + 1;
+din: = din - 1;
+fim enquanto;
+3. receba 'a quantidade de notas de 100 é:', cn100, '; de 50 é:', cn50, '; de 10 é:', cn10, '; de 5 é:', cn5, '; e de 1 é de:', cn1;
+FIM!
+
+
+16. Escrever um algoritmo que lê a hora de início e hora de término de um jogo, ambas subdivididas em dois valores distintos : horas e minutos. 
+Calcular e escrever a duração do jogo, também em horas e minutos.
+
+Variáveis:
+                
+hora_Inicio, min_Inicio, hora_Final, min_Final, dura_Horas, dura_Minutos: 
+
+Início:
+
+1. Receba (hora_Inicio do jogo:), vá para 1.1;
+1.1. Leia(hora_Inicio), vá para 2;
+2. Receba (min_Inicio), vá para 2.1;
+2.1. Leia (min_Inicio), vá para 3;
+3. Receba (hora_Final), vá para 3.1;
+3.1. Leia (hora_Final), vá para 4.
+4. Receba (min_Final), vá para 4.1; 
+4.1. Leia (min_Final), vá para 5.
+5. Se hora_Inicio < hora_Final, então, dura_Hora = hora_final - hora_Inicio, vá para 7;
+7. Senão, dura_Hora = (24 - hora_Inicio) - hora_Final, vá para 8;
+8. Se min_Inicio < min_Final, então, dura_Minutos = min_Final - min_Inicio, vá para 9;
+9. Senão, dura_Minutos = (60 - min_Inicio) + min_Final, vá para 10;
+10. dura_hora = dura_hora - 1, vá para 11;
+11. Escrever("Duração" dura_Hora, dura_Minutos).
+FIM!
