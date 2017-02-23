@@ -17,10 +17,6 @@ if valor >= 50:
     cd50= resto//50
     resto= resto%50
     print(cd50, "Cédulas de 50")
-if valor >= 20:
-    cd20= resto//20
-    resto= resto%20
-    print(cd20, "Cédulas de 20")
 if valor >= 10:
     cd10= resto//10
     resto= resto%10
