@@ -42,6 +42,3 @@ elif setor == "ARQUIBANCADA" and ingresso == "MEIA":
     taxaConveniencia= arquibancada * 5/100
     valorIngresso= arquibancada/2 + taxaConveniencia
     print("O valor do ingresso é: R$ %.2f "% valorIngresso)
-#print("opção inválida! Escolha outro setor: ")
-#print("Neste setor a entrada é só INTEIRA! ")
-#print("O valor do ingresso é: R$ %.2f "% valorIngresso)
